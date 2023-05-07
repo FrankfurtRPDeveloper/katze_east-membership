@@ -9,7 +9,6 @@ end)
 RegisterNUICallback("main", function(data)
     chat(data.text, {0,255,0})
     setDisplay(false)
-
 end)
 
 RegisterNUICallback("error", function(data)
